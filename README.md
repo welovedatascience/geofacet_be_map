@@ -6,24 +6,20 @@ WeLoveDataScience
 geo\_facet
 ----------
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+> The geofacet R package provides a way to flexibly visualize data for different geographical regions by providing a ggplot2 faceting function `facet_geo()` which works just like ggplot2’s built-in faceting, except that the resulting arrangement of panels follows a grid that mimics the original geographic topology as closely as possible.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+For more information on this exciting package, see <https://hafen.github.io/geofacet/>.
 
-``` r
-summary(cars)
-```
+This repository is a quick demonstration on how to use `geo_facet` with a specific map created by WeLoveDataScience for Belgium (provinces + Brussels level).
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+We take as example data real estate prices evolution over more than 40 years in Belgium (open data provided by Belgium government).
 
 Belgium map
 -----------
+
+### Our point of comparison
+
+![Belgium map](Belgium_Regions.gif)
 
 ### data.frame
 
