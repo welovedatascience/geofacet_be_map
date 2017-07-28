@@ -1,4 +1,4 @@
-row,col,code,name_EN,name_NL, name_FR, NIS1, NIS4
+row,col,code,name_EN,name_NL, name_FR, code_NIS1, code_NIS4
 1,3,BE-VAN, Antwerp, Anterwpen, Anvers, 1, 1000
 2,1,BE-VWV, West Flanders, West-Vlaanderen, Flandre Occidentale, 3, 3000
 2,2,BE-VOV, East Flanders, Oost-Vlaanderen, Flandre Orientale, 4, 4000
